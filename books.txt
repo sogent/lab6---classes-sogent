@@ -1,0 +1,30 @@
+Nine Algorithms That Changed the Future
+John MacCormick
+1691147140
+Code: The Hidden Language of Computer Hardware and Software
+Charles Petzold
+1735611319
+Introduction to Algorithms
+Thomas H. Cormen
+1262033844
+The Science of Programming
+David Gries
+1387964800
+Interconnection Networks
+Jose Duato
+1558608524
+Computer System Architecture
+M. Morris Mano
+1131755633
+Understanding Computers: Today & Tomorrow, Comprehensive
+Deborah Morley
+1423925211
+Logic and Computer Design Fundamentals
+M. Morris Mano
+1131678493
+Methods in Algorithmic Analysis
+Vladimir A. Dobrushkin
+1420068296
+Software Engineering: An Engineering Approach
+James F. Peters
+1471189642

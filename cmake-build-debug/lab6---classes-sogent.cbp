@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lab6---classes-sogent"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab6---classes-sogent">
+				<Option output="/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/lab6---classes-sogent" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sogent/CLionProjects/lab6---classes-sogent/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab6---classes-sogent"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab6---classes-sogent/fast">
+				<Option output="/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/lab6---classes-sogent" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sogent/CLionProjects/lab6---classes-sogent/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab6---classes-sogent/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/sogent/CLionProjects/lab6---classes-sogent/Lab06.cpp">
+			<Option target="lab6---classes-sogent"/>
+		</Unit>
+		<Unit filename="/Users/sogent/CLionProjects/lab6---classes-sogent/README.md">
+			<Option target="lab6---classes-sogent"/>
+		</Unit>
+		<Unit filename="/Users/sogent/CLionProjects/lab6---classes-sogent/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

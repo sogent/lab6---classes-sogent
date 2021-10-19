@@ -1,0 +1,3 @@
+/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/CMakeFiles/lab6---classes-sogent.dir
