@@ -153,6 +153,30 @@ Lab06.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab6---classes-sogent.dir/build.make CMakeFiles/lab6---classes-sogent.dir/Lab06.cpp.s
 .PHONY : Lab06.cpp.s
 
+LibraryBook.o: LibraryBook.cpp.o
+.PHONY : LibraryBook.o
+
+# target to build an object file
+LibraryBook.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab6---classes-sogent.dir/build.make CMakeFiles/lab6---classes-sogent.dir/LibraryBook.cpp.o
+.PHONY : LibraryBook.cpp.o
+
+LibraryBook.i: LibraryBook.cpp.i
+.PHONY : LibraryBook.i
+
+# target to preprocess a source file
+LibraryBook.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab6---classes-sogent.dir/build.make CMakeFiles/lab6---classes-sogent.dir/LibraryBook.cpp.i
+.PHONY : LibraryBook.cpp.i
+
+LibraryBook.s: LibraryBook.cpp.s
+.PHONY : LibraryBook.s
+
+# target to generate assembly for a file
+LibraryBook.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab6---classes-sogent.dir/build.make CMakeFiles/lab6---classes-sogent.dir/LibraryBook.cpp.s
+.PHONY : LibraryBook.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... Lab06.o"
 	@echo "... Lab06.i"
 	@echo "... Lab06.s"
+	@echo "... LibraryBook.o"
+	@echo "... LibraryBook.i"
+	@echo "... LibraryBook.s"
 .PHONY : help
 
 

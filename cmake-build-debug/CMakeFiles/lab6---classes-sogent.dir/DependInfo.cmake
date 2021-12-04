@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/sogent/CLionProjects/lab6---classes-sogent/Lab06.cpp" "/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/CMakeFiles/lab6---classes-sogent.dir/Lab06.cpp.o"
+  "/Users/sogent/CLionProjects/lab6---classes-sogent/LibraryBook.cpp" "/Users/sogent/CLionProjects/lab6---classes-sogent/cmake-build-debug/CMakeFiles/lab6---classes-sogent.dir/LibraryBook.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

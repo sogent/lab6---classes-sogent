@@ -85,6 +85,12 @@
 		<Unit filename="/Users/sogent/CLionProjects/lab6---classes-sogent/Lab06.cpp">
 			<Option target="lab6---classes-sogent"/>
 		</Unit>
+		<Unit filename="/Users/sogent/CLionProjects/lab6---classes-sogent/LibraryBook.cpp">
+			<Option target="lab6---classes-sogent"/>
+		</Unit>
+		<Unit filename="/Users/sogent/CLionProjects/lab6---classes-sogent/LibraryBook.h">
+			<Option target="lab6---classes-sogent"/>
+		</Unit>
 		<Unit filename="/Users/sogent/CLionProjects/lab6---classes-sogent/README.md">
 			<Option target="lab6---classes-sogent"/>
 		</Unit>

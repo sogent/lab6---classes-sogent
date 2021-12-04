@@ -7,4 +7,4 @@ include_directories(.)
 
 add_executable(lab6---classes-sogent
         Lab06.cpp
-        README.md)
+        README.md LibraryBook.cpp LibraryBook.h)
