@@ -50,13 +50,13 @@ int main() {
    }
    fin2.close();
 
-
+    //tagging books for checked in or checked out
     int checkInOutCount=0;
     for(int i=0;i<LibraryBooks.size();++i) {
         for (int j = 0; j < listISBN.size(); ++j) {
             if (LibraryBooks.at(i).GetISBN() == listISBN.at(j)) {
                 checkInOutCount += 1;
-                cout << LibraryBooks.at(i).GetTitle() << endl;
+                //cout << LibraryBooks.at(i).GetTitle() << endl;
 
                 if(checkInOutCount%2==0){
                     LibraryBooks.at(i).CheckIn();
@@ -69,7 +69,7 @@ int main() {
     }
 
 
-
+cout<<"Checking checked in/out:"<<endl;
 cout<<"****"<<endl;
     for(int i=0;i<LibraryBooks.size();++i) {
         if(LibraryBooks.at(i).isCheckedOut()){
@@ -82,7 +82,8 @@ cout<<"****"<<endl;
     }
     cout<<"****"<<endl;
 
-
+    cout<<endl;
+    cout<<"Sample output:"<<endl;
     ofstream fout("checkout.csv");
     while(fout.is_open()){
         for(int i=0;i<LibraryBooks.size();++i) {
@@ -101,12 +102,9 @@ cout<<"****"<<endl;
 
             }
         }
-
-
         fout.close();
     }
 
 
 	return 0;
-
 }
