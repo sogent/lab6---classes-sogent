@@ -7,51 +7,35 @@
 
 using namespace std;
 
+string remove_r(const string& s)
+{
+    int last = s.size() - 1;
+    while (last >= 0 && s[last] == '\r')
+        --last;
+    return s.substr(0, last + 1);
+}
+
 
 int main() {
     vector <LibraryBook> LibraryBooks;
-
     string str;
-    ifstream fin("/Users/sogent/CLionProjects/lab6---classes-sogent/books.txt");
-   while(!fin.eof()) {
-       getline(fin, str);
+    ifstream fin1("/Users/sogent/CLionProjects/lab6---classes-sogent/books.txt");
+   while(!fin1.eof()) {
+       getline(fin1, str);
        string title = str;
 
 
-
-       getline(fin, str);
+       getline(fin1, str);
        string author = str;
 
-       getline(fin, str);
+       getline(fin1, str);
        string ISBN = str;
 
 
-
        LibraryBook myBooks(title, author, ISBN);
-
        LibraryBooks.push_back(myBooks);
    }
-   fin.close();
-
-    string str3;
-    ifstream fin3("/Users/sogent/CLionProjects/lab6---classes-sogent/books.txt");
-    while(!fin3.eof()) {
-        getline(fin3, str3);
-        string title = str3;
-
-
-
-        getline(fin3, str3);
-        string author = str3;
-
-        getline(fin3, str3);
-        string ISBN = str3;
-
-
-
-
-    }
-    fin3.close();
+   fin1.close();
 
 
     string newStr;
@@ -61,9 +45,8 @@ int main() {
        getline(fin2, newStr);
        string theISBN;
        theISBN=newStr;
-        cout<<theISBN<<endl;
 
-        listISBN.push_back(theISBN);
+       listISBN.push_back(theISBN);
    }
    fin2.close();
 
@@ -97,17 +80,24 @@ cout<<"****"<<endl;
             cout<<"checked in"<<endl;
         }
     }
+    cout<<"****"<<endl;
 
 
     ofstream fout("checkout.csv");
     while(fout.is_open()){
         for(int i=0;i<LibraryBooks.size();++i) {
             if(LibraryBooks.at(i).isCheckedOut()){
-                //fout<<"\""<<"\"";
-                //fout<<"\""<<LibraryBooks.at(i).GetTitle()<<"\","<<"\""<<LibraryBooks.at(i).GetAuthor()<<"\","<<"\""<<LibraryBooks.at(i).GetISBN()<<"\"";
-                fout<<LibraryBooks.at(i).GetTitle()<<",";
-                cout<<LibraryBooks.at(i).GetTitle();
-                cout<<",";
+
+                fout<<"\""<<remove_r(LibraryBooks.at(i).GetTitle())<<"\""<<",";
+                fout<<"\""<<remove_r(LibraryBooks.at(i).GetAuthor())<<"\""<<",";
+                fout<<"\""<<remove_r(LibraryBooks.at(i).GetISBN())<<"\""<<endl;
+
+
+                cout<<"\""<<remove_r(LibraryBooks.at(i).GetTitle())<<"\""<<",";
+                cout<<"\""<<remove_r(LibraryBooks.at(i).GetAuthor())<<"\""<<",";
+                cout<<"\""<<remove_r(LibraryBooks.at(i).GetISBN())<<"\""<<endl;
+
+
 
             }
         }
